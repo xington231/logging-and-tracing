@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Archive";
+}
+<div id="tasks-table-container" style="margin-top: 40px;">
+    <h2>Archive Tasks</h2>
+    <table id="tasks-table" border="1" cellpadding="8" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Task Name</th>
+                <th>Completion Date</th>
+            </tr>
+        </thead>
+        <tbody id="archive-tasks-tbody">
+        </tbody>
+    </table>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', loadArchivedTasks);
+    async function loadArchivedTasks() {
+        try {
+            const response = await fetch('/api/Api/GetArchivedTasks');
+            const tasks = await response.json();
+            renderArchivedTasks(tasks);
+        } catch (error) {
+            console.error('Error loading archived tasks:', error);
+        }
+    }
+
+    function renderArchivedTasks(tasks) {
+        const tbody = document.getElementById('archive-tasks-tbody');
+        tbody.innerHTML = '';
+
+        tasks.forEach(task => {
+            const row = document.createElement('tr');
+            const taskName = task.taskName;
+            const completionDate = task.completionDate;
+            row.innerHTML = `
+                <td>${taskName}</td>
+                <td>${completionDate}</td>
+            `;
+            tbody.appendChild(row);
+        });
+    }
+</script>

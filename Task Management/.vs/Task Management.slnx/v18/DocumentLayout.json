@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\degty\\source\\repos\\Task Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\views\\home\\currenttasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\views\\home\\currenttasks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\views\\home\\archive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\views\\home\\archive.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\models\\currenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\currenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\models\\archivedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\archivedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|c:\\users\\degty\\source\\repos\\task management\\task management\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Task Management\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Task Management\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-04T15:14:42.57Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrentTask.cs",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Models\\CurrentTask.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\CurrentTask.cs",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Models\\CurrentTask.cs",
+              "RelativeToolTip": "Task Management\\Models\\CurrentTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T10:01:06.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArchivedTask.cs",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Models\\ArchivedTask.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\ArchivedTask.cs",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Models\\ArchivedTask.cs",
+              "RelativeToolTip": "Task Management\\Models\\ArchivedTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:59:45.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T14:21:02.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "Task Management\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\ApiController.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAUwCwBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T15:49:54.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task Management\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T14:56:11.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Archive.cshtml",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Views\\Home\\Archive.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Home\\Archive.cshtml",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Views\\Home\\Archive.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Home\\Archive.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T14:54:42.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CurrentTasks.cshtml",
+              "DocumentMoniker": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Views\\Home\\CurrentTasks.cshtml",
+              "RelativeDocumentMoniker": "Task Management\\Views\\Home\\CurrentTasks.cshtml",
+              "ToolTip": "C:\\Users\\degty\\source\\repos\\Task Management\\Task Management\\Views\\Home\\CurrentTasks.cshtml",
+              "RelativeToolTip": "Task Management\\Views\\Home\\CurrentTasks.cshtml",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAKEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T14:43:39.278Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
