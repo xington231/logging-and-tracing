@@ -1,0 +1,294 @@
+2026-02-09 16:43:15.555 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Archive.cshtml'.
+2026-02-09 16:43:15.576 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/CurrentTasks.cshtml'.
+2026-02-09 16:43:15.577 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2026-02-09 16:43:15.577 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2026-02-09 16:43:15.578 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2026-02-09 16:43:15.578 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2026-02-09 16:43:15.585 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2026-02-09 16:43:15.620 +03:00 [DBG] Hosting starting
+2026-02-09 16:43:15.634 +03:00 [INF] User profile is available. Using 'C:\Users\degty\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-09 16:43:15.642 +03:00 [DBG] Reading data from file 'C:\Users\degty\AppData\Local\ASP.NET\DataProtection-Keys\key-d447e10e-f8e6-44b3-a4f8-dec61b6bdc55.xml'.
+2026-02-09 16:43:15.647 +03:00 [DBG] Found key {d447e10e-f8e6-44b3-a4f8-dec61b6bdc55}.
+2026-02-09 16:43:15.652 +03:00 [DBG] Considering key {d447e10e-f8e6-44b3-a4f8-dec61b6bdc55} with expiration date 2026-04-16 14:19:46Z as default key.
+2026-02-09 16:43:15.654 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-02-09 16:43:15.655 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2026-02-09 16:43:15.656 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2026-02-09 16:43:15.658 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2026-02-09 16:43:15.659 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2026-02-09 16:43:15.661 +03:00 [DBG] Using key {d447e10e-f8e6-44b3-a4f8-dec61b6bdc55} as the default key.
+2026-02-09 16:43:15.662 +03:00 [DBG] Key ring with default key {d447e10e-f8e6-44b3-a4f8-dec61b6bdc55} was loaded during application startup.
+2026-02-09 16:43:15.665 +03:00 [DBG] Middleware loaded
+2026-02-09 16:43:15.668 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16515 B).
+2026-02-09 16:43:15.669 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-02-09 16:43:15.701 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-02-09 16:43:15.703 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-02-09 16:43:15.708 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-02-09 16:43:15.761 +03:00 [INF] Now listening on: https://localhost:7120
+2026-02-09 16:43:15.762 +03:00 [INF] Now listening on: http://localhost:5221
+2026-02-09 16:43:15.762 +03:00 [DBG] Loaded hosting startup assembly Task Management
+2026-02-09 16:43:15.763 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-02-09 16:43:15.763 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-02-09 16:43:15.763 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-02-09 16:43:15.767 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-09 16:43:15.768 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v10.0.0.0.
+2026-02-09 16:43:15.788 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-09 16:43:15.789 +03:00 [INF] Hosting environment: Development
+2026-02-09 16:43:15.789 +03:00 [INF] Content root path: E:\Study\LoggingAndTracing\Task Management\Task Management
+2026-02-09 16:43:15.790 +03:00 [DBG] Hosting started
+2026-02-09 16:43:15.835 +03:00 [DBG] Connection id "0HNJ7S4MKL2OB" accepted.
+2026-02-09 16:43:15.835 +03:00 [DBG] Connection id "0HNJ7S4MKL2OC" accepted.
+2026-02-09 16:43:15.836 +03:00 [DBG] Connection id "0HNJ7S4MKL2OB" started.
+2026-02-09 16:43:15.836 +03:00 [DBG] Connection id "0HNJ7S4MKL2OC" started.
+2026-02-09 16:43:15.850 +03:00 [DBG] Connection id "0HNJ7S4MKL2OC" received FIN.
+2026-02-09 16:43:15.850 +03:00 [DBG] Connection id "0HNJ7S4MKL2OB" received FIN.
+2026-02-09 16:43:15.854 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-02-09 16:43:15.854 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2026-02-09 16:43:15.869 +03:00 [DBG] Connection id "0HNJ7S4MKL2OC" stopped.
+2026-02-09 16:43:15.869 +03:00 [DBG] Connection id "0HNJ7S4MKL2OB" stopped.
+2026-02-09 16:43:15.870 +03:00 [DBG] Connection id "0HNJ7S4MKL2OB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-09 16:43:15.870 +03:00 [DBG] Connection id "0HNJ7S4MKL2OC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-02-09 16:43:17.234 +03:00 [DBG] Connection id "0HNJ7S4MKL2OD" accepted.
+2026-02-09 16:43:17.235 +03:00 [DBG] Connection id "0HNJ7S4MKL2OD" started.
+2026-02-09 16:43:17.254 +03:00 [DBG] Connection 0HNJ7S4MKL2OD established using the following protocol: "Tls13"
+2026-02-09 16:43:17.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/ - null null
+2026-02-09 16:43:17.334 +03:00 [DBG] The request path / does not match a supported file type
+2026-02-09 16:43:17.345 +03:00 [DBG] 1 candidate(s) found for the request path '/'
+2026-02-09 16:43:17.346 +03:00 [DBG] Endpoint 'Task_Management.Controllers.HomeController.CurrentTasks (Task Management)' with route pattern '' is valid for the request path '/'
+2026-02-09 16:43:17.347 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.HomeController.CurrentTasks (Task Management)'
+2026-02-09 16:43:17.350 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.HomeController.CurrentTasks (Task Management)'
+2026-02-09 16:43:17.366 +03:00 [INF] Route matched with {action = "CurrentTasks", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CurrentTasks() on controller Task_Management.Controllers.HomeController (Task Management).
+2026-02-09 16:43:17.368 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:17.369 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:17.370 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2026-02-09 16:43:17.371 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:17.372 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:17.373 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.HomeController (Task Management)
+2026-02-09 16:43:17.374 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.HomeController (Task Management)
+2026-02-09 16:43:17.377 +03:00 [DBG] View lookup cache miss for view 'CurrentTasks' in controller 'Home'.
+2026-02-09 16:43:17.380 +03:00 [INF] Executing ViewResult, running view CurrentTasks.
+2026-02-09 16:43:17.383 +03:00 [DBG] The view path '/Views/Home/CurrentTasks.cshtml' was found in 3.9409ms.
+2026-02-09 16:43:17.404 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2026-02-09 16:43:17.433 +03:00 [DBG] Found the endpoints ["Task_Management.Controllers.HomeController.CurrentTasks (Task Management)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[CurrentTasks],controller=[Home])
+2026-02-09 16:43:17.436 +03:00 [DBG] Successfully processed template  for Task_Management.Controllers.HomeController.CurrentTasks (Task Management) resulting in  and 
+2026-02-09 16:43:17.437 +03:00 [DBG] Link generation succeeded for endpoints ["Task_Management.Controllers.HomeController.CurrentTasks (Task Management)","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-02-09 16:43:17.439 +03:00 [DBG] Found the endpoints ["Task_Management.Controllers.HomeController.CurrentTasks (Task Management)","Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[CurrentTasks],controller=[Home])
+2026-02-09 16:43:17.440 +03:00 [DBG] Successfully processed template  for Task_Management.Controllers.HomeController.CurrentTasks (Task Management) resulting in  and 
+2026-02-09 16:43:17.441 +03:00 [DBG] Link generation succeeded for endpoints ["Task_Management.Controllers.HomeController.CurrentTasks (Task Management)","Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2026-02-09 16:43:17.442 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Archive],controller=[Home])
+2026-02-09 16:43:17.444 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Archive and 
+2026-02-09 16:43:17.445 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Archive
+2026-02-09 16:43:17.449 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2026-02-09 16:43:17.454 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2026-02-09 16:43:17.465 +03:00 [INF] Executed ViewResult - view CurrentTasks executed in 87.6937ms.
+2026-02-09 16:43:17.468 +03:00 [INF] Executed action Task_Management.Controllers.HomeController.CurrentTasks (Task Management) in 95.5822ms
+2026-02-09 16:43:17.469 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.HomeController.CurrentTasks (Task Management)'
+2026-02-09 16:43:17.471 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2026-02-09 16:43:17.473 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2026-02-09 16:43:17.475 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/ - 200 null text/html; charset=utf-8 196.2171ms
+2026-02-09 16:43:17.485 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-09 16:43:17.489 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2026-02-09 16:43:17.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 4.7362ms
+2026-02-09 16:43:17.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/_vs/browserLink - null null
+2026-02-09 16:43:17.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/api/Api/GetTasks - null null
+2026-02-09 16:43:17.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2146ms
+2026-02-09 16:43:17.538 +03:00 [DBG] The request path /api/Api/GetTasks does not match a supported file type
+2026-02-09 16:43:17.542 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:17.542 +03:00 [DBG] Endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)' with route pattern 'api/Api/GetTasks' is valid for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:17.543 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:17.544 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:17.551 +03:00 [INF] Route matched with {action = "GetTasks", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTasks(System.Nullable`1[System.Int32]) on controller Task_Management.Controllers.ApiController (Task Management).
+2026-02-09 16:43:17.552 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:17.553 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:17.554 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-09 16:43:17.557 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:17.558 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-09 16:43:17.559 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:17.560 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:17.563 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:17.565 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' using the name '' in request data ...
+2026-02-09 16:43:17.567 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:17.568 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:17.569 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:17.569 +03:00 [DBG] Attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:17.571 +03:00 [DBG] Done attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:17.711 +03:00 [INF] ["2026-02-09T13:43:17.5798382Z"] Успешно получено 8 задач.
+2026-02-09 16:43:17.714 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-02-09 16:43:17.716 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-02-09 16:43:17.716 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-02-09 16:43:17.717 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-02-09 16:43:17.718 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-02-09 16:43:17.718 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task_Management.Models.CurrentTask, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-09 16:43:17.725 +03:00 [INF] Executed action Task_Management.Controllers.ApiController.GetTasks (Task Management) in 166.7333ms
+2026-02-09 16:43:17.726 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:17.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/api/Api/GetTasks - 200 null application/json; charset=utf-8 190.445ms
+2026-02-09 16:43:22.584 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7120/api/Api/CreateTask - application/json 154
+2026-02-09 16:43:22.586 +03:00 [DBG] POST requests are not supported
+2026-02-09 16:43:22.588 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Api/CreateTask'
+2026-02-09 16:43:22.588 +03:00 [DBG] Endpoint 'Task_Management.Controllers.ApiController.CreateTask (Task Management)' with route pattern 'api/Api/CreateTask' is valid for the request path '/api/Api/CreateTask'
+2026-02-09 16:43:22.589 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.ApiController.CreateTask (Task Management)'
+2026-02-09 16:43:22.590 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.ApiController.CreateTask (Task Management)'
+2026-02-09 16:43:22.592 +03:00 [INF] Route matched with {action = "CreateTask", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateTask(Task_Management.Models.CurrentTask) on controller Task_Management.Controllers.ApiController (Task Management).
+2026-02-09 16:43:22.592 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:22.593 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:22.594 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-09 16:43:22.595 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:22.596 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-09 16:43:22.597 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:22.597 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:22.598 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask' ...
+2026-02-09 16:43:22.599 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask' using the name '' in request data ...
+2026-02-09 16:43:22.601 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-02-09 16:43:22.604 +03:00 [DBG] Connection id "0HNJ7S4MKL2OD", Request id "0HNJ7S4MKL2OD:00000009": started reading request body.
+2026-02-09 16:43:22.605 +03:00 [DBG] Connection id "0HNJ7S4MKL2OD", Request id "0HNJ7S4MKL2OD:00000009": done reading request body.
+2026-02-09 16:43:22.608 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Task_Management.Models.CurrentTask'
+2026-02-09 16:43:22.609 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask'.
+2026-02-09 16:43:22.610 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask'.
+2026-02-09 16:43:22.610 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Task_Management.Models.CurrentTask' ...
+2026-02-09 16:43:22.615 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Task_Management.Models.CurrentTask'.
+2026-02-09 16:43:22.630 +03:00 [INF] ["2026-02-09T13:43:22.6167461Z"] Задача успешно создана с TaskID=29.
+2026-02-09 16:43:22.632 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-02-09 16:43:22.633 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-02-09 16:43:22.634 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-02-09 16:43:22.634 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-02-09 16:43:22.635 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-02-09 16:43:22.636 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-09 16:43:22.640 +03:00 [INF] Executed action Task_Management.Controllers.ApiController.CreateTask (Task Management) in 43.5787ms
+2026-02-09 16:43:22.641 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.ApiController.CreateTask (Task Management)'
+2026-02-09 16:43:22.642 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7120/api/Api/CreateTask - 200 null application/json; charset=utf-8 57.6854ms
+2026-02-09 16:43:23.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/api/Api/GetTasks - null null
+2026-02-09 16:43:23.562 +03:00 [DBG] The request path /api/Api/GetTasks does not match a supported file type
+2026-02-09 16:43:23.563 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:23.564 +03:00 [DBG] Endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)' with route pattern 'api/Api/GetTasks' is valid for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:23.564 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:23.565 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:23.566 +03:00 [INF] Route matched with {action = "GetTasks", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTasks(System.Nullable`1[System.Int32]) on controller Task_Management.Controllers.ApiController (Task Management).
+2026-02-09 16:43:23.567 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:23.568 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:23.568 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-09 16:43:23.569 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:23.570 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-09 16:43:23.571 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:23.571 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:23.572 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:23.573 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' using the name '' in request data ...
+2026-02-09 16:43:23.573 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:23.574 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:23.575 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:23.575 +03:00 [DBG] Attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:23.576 +03:00 [DBG] Done attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:23.577 +03:00 [INF] ["2026-02-09T13:43:23.5769773Z"] Успешно получено 9 задач.
+2026-02-09 16:43:23.578 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-02-09 16:43:23.579 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-02-09 16:43:23.580 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-02-09 16:43:23.580 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-02-09 16:43:23.580 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-02-09 16:43:23.581 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task_Management.Models.CurrentTask, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-09 16:43:23.582 +03:00 [INF] Executed action Task_Management.Controllers.ApiController.GetTasks (Task Management) in 10.9836ms
+2026-02-09 16:43:23.582 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:23.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/api/Api/GetTasks - 200 null application/json; charset=utf-8 22.7294ms
+2026-02-09 16:43:24.798 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/api/Api/GetTasks - null null
+2026-02-09 16:43:24.799 +03:00 [DBG] The request path /api/Api/GetTasks does not match a supported file type
+2026-02-09 16:43:24.800 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:24.800 +03:00 [DBG] Endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)' with route pattern 'api/Api/GetTasks' is valid for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:24.801 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:24.801 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:24.802 +03:00 [INF] Route matched with {action = "GetTasks", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTasks(System.Nullable`1[System.Int32]) on controller Task_Management.Controllers.ApiController (Task Management).
+2026-02-09 16:43:24.803 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:24.804 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:24.804 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-09 16:43:24.805 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:24.806 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-09 16:43:24.807 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:24.807 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:24.808 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:24.809 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' using the name '' in request data ...
+2026-02-09 16:43:24.809 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:24.810 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:24.811 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:24.811 +03:00 [DBG] Attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:24.812 +03:00 [DBG] Done attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:24.813 +03:00 [INF] ["2026-02-09T13:43:24.8131582Z"] Успешно получено 9 задач.
+2026-02-09 16:43:24.814 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-02-09 16:43:24.815 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-02-09 16:43:24.815 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-02-09 16:43:24.816 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-02-09 16:43:24.816 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-02-09 16:43:24.817 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task_Management.Models.CurrentTask, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-09 16:43:24.818 +03:00 [INF] Executed action Task_Management.Controllers.ApiController.GetTasks (Task Management) in 10.8646ms
+2026-02-09 16:43:24.818 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:24.819 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/api/Api/GetTasks - 200 null application/json; charset=utf-8 21.2528ms
+2026-02-09 16:43:26.357 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7120/api/Api/UpdateTask - application/json 163
+2026-02-09 16:43:26.359 +03:00 [DBG] PUT requests are not supported
+2026-02-09 16:43:26.359 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Api/UpdateTask'
+2026-02-09 16:43:26.360 +03:00 [DBG] Endpoint 'Task_Management.Controllers.ApiController.UpdateTask (Task Management)' with route pattern 'api/Api/UpdateTask' is valid for the request path '/api/Api/UpdateTask'
+2026-02-09 16:43:26.361 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.ApiController.UpdateTask (Task Management)'
+2026-02-09 16:43:26.361 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.ApiController.UpdateTask (Task Management)'
+2026-02-09 16:43:26.363 +03:00 [INF] Route matched with {action = "UpdateTask", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateTask(Task_Management.Models.CurrentTask) on controller Task_Management.Controllers.ApiController (Task Management).
+2026-02-09 16:43:26.364 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:26.364 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:26.365 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-09 16:43:26.366 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:26.367 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-09 16:43:26.368 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:26.368 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:26.369 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask' ...
+2026-02-09 16:43:26.369 +03:00 [DBG] Attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask' using the name '' in request data ...
+2026-02-09 16:43:26.370 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2026-02-09 16:43:26.371 +03:00 [DBG] Connection id "0HNJ7S4MKL2OD", Request id "0HNJ7S4MKL2OD:0000000F": started reading request body.
+2026-02-09 16:43:26.372 +03:00 [DBG] Connection id "0HNJ7S4MKL2OD", Request id "0HNJ7S4MKL2OD:0000000F": done reading request body.
+2026-02-09 16:43:26.373 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Task_Management.Models.CurrentTask'
+2026-02-09 16:43:26.373 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask'.
+2026-02-09 16:43:26.374 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'Task_Management.Models.CurrentTask'.
+2026-02-09 16:43:26.375 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Task_Management.Models.CurrentTask' ...
+2026-02-09 16:43:26.376 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Task_Management.Models.CurrentTask'.
+2026-02-09 16:43:26.379 +03:00 [INF] ["2026-02-09T13:43:26.3773878Z"] Задача с TaskID=22 успешно обновлена.
+2026-02-09 16:43:26.380 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-02-09 16:43:26.381 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-02-09 16:43:26.382 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-02-09 16:43:26.382 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-02-09 16:43:26.382 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2026-02-09 16:43:26.383 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-02-09 16:43:26.384 +03:00 [INF] Executed action Task_Management.Controllers.ApiController.UpdateTask (Task Management) in 16.5885ms
+2026-02-09 16:43:26.385 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.ApiController.UpdateTask (Task Management)'
+2026-02-09 16:43:26.385 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7120/api/Api/UpdateTask - 200 null text/plain; charset=utf-8 28.3255ms
+2026-02-09 16:43:27.359 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7120/api/Api/GetTasks - null null
+2026-02-09 16:43:27.361 +03:00 [DBG] The request path /api/Api/GetTasks does not match a supported file type
+2026-02-09 16:43:27.361 +03:00 [DBG] 1 candidate(s) found for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:27.362 +03:00 [DBG] Endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)' with route pattern 'api/Api/GetTasks' is valid for the request path '/api/Api/GetTasks'
+2026-02-09 16:43:27.363 +03:00 [DBG] Request matched endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:27.363 +03:00 [INF] Executing endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:27.364 +03:00 [INF] Route matched with {action = "GetTasks", controller = "Api"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTasks(System.Nullable`1[System.Int32]) on controller Task_Management.Controllers.ApiController (Task Management).
+2026-02-09 16:43:27.365 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2026-02-09 16:43:27.365 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2026-02-09 16:43:27.366 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2026-02-09 16:43:27.367 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2026-02-09 16:43:27.368 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter","Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2026-02-09 16:43:27.369 +03:00 [DBG] Executing controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:27.369 +03:00 [DBG] Executed controller factory for controller Task_Management.Controllers.ApiController (Task Management)
+2026-02-09 16:43:27.370 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:27.371 +03:00 [DBG] Attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]' using the name '' in request data ...
+2026-02-09 16:43:27.371 +03:00 [DBG] Could not find a value in the request with name '' for binding parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:27.372 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:27.373 +03:00 [DBG] Done attempting to bind parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:27.374 +03:00 [DBG] Attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]' ...
+2026-02-09 16:43:27.374 +03:00 [DBG] Done attempting to validate the bound parameter 'statusid' of type 'System.Nullable`1[System.Int32]'.
+2026-02-09 16:43:27.375 +03:00 [INF] ["2026-02-09T13:43:27.3753620Z"] Успешно получено 9 задач.
+2026-02-09 16:43:27.376 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2026-02-09 16:43:27.377 +03:00 [DBG] No information found on request to perform content negotiation.
+2026-02-09 16:43:27.378 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2026-02-09 16:43:27.378 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2026-02-09 16:43:27.379 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2026-02-09 16:43:27.379 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Task_Management.Models.CurrentTask, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-02-09 16:43:27.380 +03:00 [INF] Executed action Task_Management.Controllers.ApiController.GetTasks (Task Management) in 11.1979ms
+2026-02-09 16:43:27.381 +03:00 [INF] Executed endpoint 'Task_Management.Controllers.ApiController.GetTasks (Task Management)'
+2026-02-09 16:43:27.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7120/api/Api/GetTasks - 200 null application/json; charset=utf-8 22.3018ms

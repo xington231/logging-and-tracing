@@ -187,3 +187,202 @@ C:\Users\degty\source\repos\Task Management\Task Management\bin\Debug\net10.0\Np
 C:\Users\degty\source\repos\Task Management\Task Management\obj\Debug\net10.0\Task Management.csproj.AssemblyReference.cache
 C:\Users\degty\source\repos\Task Management\Task Management\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\degty\source\repos\Task Management\Task Management\obj\Debug\net10.0\compressed\ex1c8epmt9-{0}-sinu7iqhz8-sinu7iqhz8.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\appsettings.Development.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\appsettings.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.staticwebassets.endpoints.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.staticwebassets.runtime.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.exe
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.deps.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.runtimeconfig.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Task Management.pdb
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Humanizer.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Mono.TextTemplating.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Newtonsoft.Json.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Npgsql.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\System.CodeDom.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\System.Composition.Convention.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\System.Composition.Hosting.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\System.Composition.Runtime.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\System.Composition.TypedParts.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.csproj.AssemblyReference.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.AssemblyInfoInputs.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.AssemblyInfo.cs
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.csproj.CoreCompileInputs.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.MvcApplicationPartsAssemblyInfo.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.RazorAssemblyInfo.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.RazorAssemblyInfo.cs
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.sourcelink.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\scopedcss\bundle\Task Management.styles.css
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\scopedcss\projectbundle\Task Management.bundle.scp.css
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\ex1c8epmt9-{0}-sinu7iqhz8-sinu7iqhz8.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\ei2lzf2cu0-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\ki9aq9atpw-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\f6rctjnpfa-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\2v2w1ax0u0-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\1zfhlkmaao-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\9d7ikufunc-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\jexhu8kmr7-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\5rxfnd7e55-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\7vvohgfggy-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\fj9v1liyjv-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\r5s9hh0yk6-{0}-ub07r2b239-ub07r2b239.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\qb39urq38n-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\hkrbrj2ctz-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\8sgdckdt6t-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\pqb0glyvak-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\5rqz7hirfh-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\mf824d00hu-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\tl8ykapqir-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\4cql9kqmwy-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\g0q96a7xvs-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\g7h12v6une-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\noawcvmy2i-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\hd0mw6gx30-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\ked9t7drk5-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\wixbawsegj-{0}-06098lyss8-06098lyss8.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\04druaxshl-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\hx6nvhzgsn-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\njfs6ah85d-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\ojnh315cxf-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\g47s4f8v9i-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\aa6t1u7jcj-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\kiwfyqudau-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\z87j6x0q7f-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\lvnab1kswm-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\l5ns3524pn-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\7czaq6u9jr-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\4nkrlh60ev-{0}-493y06b0oq-493y06b0oq.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\2atp02ihu8-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\dqrvgqwhp8-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\btxcpl1hfc-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\oxv4txdr88-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\8g3l8eb2xv-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\g3ma1o257t-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\k8qno4kxhj-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\id6ep4wvv2-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\hwzcs38vab-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\l503lpx42x-{0}-47otxtyo56-47otxtyo56.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\hnpf058lr1-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\l08h13pepy-{0}-356vix0kms-356vix0kms.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\lgi8gpab9t-{0}-83jwlth58m-83jwlth58m.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\3epl3ozbtv-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\0nhhswu7yx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\as8uylr97c-{0}-ag7o75518u-ag7o75518u.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\dmze8s3lm8-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\ogdf46nvp9-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\y6wakuy3lm-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\uzrqj3o4q4-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\q5k2ro4x2v-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\o3jqhpo18d-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\nbntkpnmua-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\wvrc171kof-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\i3b630zdme-{0}-yvpe0gnjq3-yvpe0gnjq3.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\compressed\nxa55md5dr-{0}-yvpe0gnjq3-yvpe0gnjq3.gz
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\staticwebassets.build.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\staticwebassets.development.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\swae.build.ex.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Man.5CF54EC1.Up2Date
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\refint\Task Management.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.pdb
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\Task Management.genruntimeconfig.cache
+E:\Study\LoggingAndTracing\Task Management\Task Management\obj\Debug\net10.0\ref\Task Management.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Sinks.File.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.AspNetCore.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
