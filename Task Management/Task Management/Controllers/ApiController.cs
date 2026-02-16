@@ -5,11 +5,11 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using Task_Management.Models;
 
-
 namespace Task_Management.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+
     public class ApiController : ControllerBase
     {
         private readonly IConfiguration _configuration;
@@ -25,9 +25,18 @@ namespace Task_Management.Controllers
         public IActionResult CreateTask([FromBody] CurrentTask request)
         {
             var requestTime = DateTime.UtcNow;
+            Tracer.TaskManagerTrace.TraceEvent(TraceEventType.Start, 0, "Начало CreateTask");
+            Stopwatch sw = Stopwatch.StartNew();
+
             string connectionString = _configuration.GetConnectionString("task_management");
             if (string.IsNullOrEmpty(connectionString))
             {
+
+                            Tracer.TaskManagerTrace.TraceEvent(
+                   TraceEventType.Warning,
+                   2,
+                   "Попытка добавить подключение с пустым названием."
+               );
                 _logger.LogError($"[{DateTime.UtcNow}] Ошибка: строка подключения 'task_management' не найдена или пуста.");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
@@ -66,6 +75,11 @@ namespace Task_Management.Controllers
                             }
 
                             transaction.Commit();
+                            Tracer.TaskManagerTrace.TraceEvent(
+                                TraceEventType.Stop,
+                                1,
+                                $"Завершение CreateTask. Время: {sw.ElapsedMilliseconds} мс"
+                            );
                             _logger.LogInformation("[{Time}] Задача успешно создана с TaskID={TaskID}.",requestTime, newTaskId);
                             return Ok(new
                             {
@@ -76,6 +90,11 @@ namespace Task_Management.Controllers
                     }
                     catch (Exception ex)
                     {
+                        Tracer.TaskManagerTrace.TraceEvent(
+                            TraceEventType.Error,
+                            3,
+                            $"Ошибка в CreateTask: {ex.Message}"
+                        );
                         transaction.Rollback();
                         _logger.LogError(ex, "[{Time}] Ошибка при создании задачи.", requestTime);
                         return StatusCode(StatusCodes.Status500InternalServerError, $"Ошибка сервера: {ex.Message}");
@@ -90,8 +109,14 @@ namespace Task_Management.Controllers
             var requestTime = DateTime.UtcNow;
             string connectionString = _configuration.GetConnectionString("task_management");
 
+            Tracer.TaskManagerTrace.TraceEvent(TraceEventType.Start, 0, "Начало GetTasks");
+            Stopwatch sw = Stopwatch.StartNew();
             if (string.IsNullOrEmpty(connectionString))
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                   TraceEventType.Warning,
+                   2,
+                   "Попытка добавить подключение с пустым названием.");
                 _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
@@ -137,15 +162,29 @@ namespace Task_Management.Controllers
 
                 if (tasks.Count == 0)
                 {
+                    Tracer.TaskManagerTrace.TraceEvent(
+                                TraceEventType.Warning,
+                                1,
+                                $"Попытка получить пустой список задач"
+                            );
                     _logger.LogInformation("[{Time}] Задачи не найдены.", requestTime);
                     return Ok(new List<CurrentTask>());
                 }
-
+                Tracer.TaskManagerTrace.TraceEvent(
+                                TraceEventType.Stop,
+                                1,
+                                $"Завершение GetTasks. Время: {sw.ElapsedMilliseconds} мс"
+                            );
                 _logger.LogInformation("[{Time}] Успешно получено {Count} задач.", requestTime, tasks.Count);
                 return Ok(tasks);
             }
             catch (Exception ex)
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                    TraceEventType.Error,
+                    3,
+                    $"Ошибка в GetTasks: {ex.Message}"
+                );
                 _logger.LogError(ex, "[{Time}] Ошибка при получении задач.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Ошибка сервера: {ex.Message}");
             }
@@ -159,8 +198,14 @@ namespace Task_Management.Controllers
             var requestTime = DateTime.UtcNow;
             string connectionString = _configuration.GetConnectionString("task_management");
 
+            Tracer.TaskManagerTrace.TraceEvent(TraceEventType.Start, 0, "Начало UpdateTask");
+            Stopwatch sw = Stopwatch.StartNew();
             if (string.IsNullOrEmpty(connectionString))
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                   TraceEventType.Warning,
+                   2,
+                   "Попытка добавить подключение с пустым названием.");
                 _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
@@ -193,18 +238,32 @@ namespace Task_Management.Controllers
 
                             if (result < 1)
                             {
+                                Tracer.TaskManagerTrace.TraceEvent(
+                                TraceEventType.Warning,
+                                1,
+                                $"Попытка обновить несуществующую задачу"
+                            );
                                 transaction.Rollback();
                                 _logger.LogWarning("[{Time}] Ошибка: задача с ID={TaskID} не была обновлена (не найдена).",requestTime, request.task_id);
                                 return NotFound($"Задача с ID {request.task_id} не найдена.");
                             }
                         }
-
+                        Tracer.TaskManagerTrace.TraceEvent(
+                               TraceEventType.Stop,
+                               1,
+                               $"Завершение UpdateTask. Время: {sw.ElapsedMilliseconds} мс"
+                           );
                         transaction.Commit();
                         _logger.LogInformation("[{Time}] Задача с TaskID={TaskID} успешно обновлена.",requestTime, request.task_id);
                         return Ok($"Задача с ID {request.task_id} успешно обновлена.");
                     }
                     catch (Exception ex)
                     {
+                                Tracer.TaskManagerTrace.TraceEvent(
+                            TraceEventType.Error,
+                            3,
+                            $"Ошибка в UpdateTask: {ex.Message}"
+                        );
                         transaction.Rollback();
                         _logger.LogError(ex, "[{Time}] Ошибка: не удалось обновить задачу с ID={TaskID}.",requestTime, request.task_id);
                         return StatusCode(StatusCodes.Status500InternalServerError, $"Ошибка сервера: {ex.Message}");
@@ -218,8 +277,14 @@ namespace Task_Management.Controllers
             var requestTime = DateTime.UtcNow;
             string connectionString = _configuration.GetConnectionString("task_management");
 
+            Tracer.TaskManagerTrace.TraceEvent(TraceEventType.Start, 0, "Начало DeleteTask");
+            Stopwatch sw = Stopwatch.StartNew();
             if (string.IsNullOrEmpty(connectionString))
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                   TraceEventType.Warning,
+                   2,
+                   "Попытка добавить подключение с пустым названием.");
                 _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
@@ -240,13 +305,20 @@ namespace Task_Management.Controllers
 
                             if (result < 1)
                             {
+                                Tracer.TaskManagerTrace.TraceEvent(
+                              TraceEventType.Warning,
+                              2,
+                              "Попытка удалить несуществующую задачу");
                                 transaction.Rollback();
                                 _logger.LogWarning("[{Time}] Ошибка: задача с ID={TaskID} не была удалена",
                                     requestTime, task_id);
                                 return NotFound($"Задача с ID {task_id} не найдена.");
                             }
                         }
-
+                        Tracer.TaskManagerTrace.TraceEvent(
+                              TraceEventType.Stop,
+                              2,
+                              $"Завершение DeleteTask. Время: {sw.ElapsedMilliseconds} мс");
                         transaction.Commit();
                         _logger.LogInformation("[{Time}] Задача с TaskID={TaskID} успешно удалена.",
                             requestTime, task_id);
@@ -254,6 +326,11 @@ namespace Task_Management.Controllers
                     }
                     catch (Exception ex)
                     {
+                        Tracer.TaskManagerTrace.TraceEvent(
+                          TraceEventType.Error,
+                          3,
+                          $"Ошибка в DeleteTask: {ex.Message}"
+                      );
                         transaction.Rollback();
                         _logger.LogError(ex, "[{Time}] Ошибка: не удалось удалить задачу с ID={TaskID}.",
                             requestTime, task_id);
@@ -268,8 +345,14 @@ namespace Task_Management.Controllers
             var requestTime = DateTime.UtcNow;
             string connectionString = _configuration.GetConnectionString("task_management");
 
+            Tracer.TaskManagerTrace.TraceEvent(TraceEventType.Start, 0, "Начало ArchiveTasks");
+            Stopwatch sw = Stopwatch.StartNew();
             if (string.IsNullOrEmpty(connectionString))
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                   TraceEventType.Warning,
+                   2,
+                   "Попытка добавить подключение с пустым названием.");
                 _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
@@ -283,7 +366,10 @@ namespace Task_Management.Controllers
                         var result = command.ExecuteScalar();
                         int archivedCount = result != DBNull.Value && result != null ?
                             Convert.ToInt32(result) : 0;
-
+                        Tracer.TaskManagerTrace.TraceEvent(
+                             TraceEventType.Stop,
+                             2,
+                             $"Завершение ArchiveTasks. Время: {sw.ElapsedMilliseconds} мс");
                         _logger.LogInformation("[{Time}] Архивировано задач: {Count}",
                             requestTime, archivedCount);
                         return Ok(new
@@ -298,6 +384,11 @@ namespace Task_Management.Controllers
             }
             catch (Exception ex)
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                          TraceEventType.Error,
+                          3,
+                          $"Ошибка в ArchiveTasks: {ex.Message}"
+                      );
                 _logger.LogError(ex, "[{Time}] Ошибка при архивации выполненных задач.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Ошибка архивации: {ex.Message}");
             }
@@ -309,8 +400,14 @@ namespace Task_Management.Controllers
             var requestTime = DateTime.UtcNow;
             string connectionString = _configuration.GetConnectionString("task_management");
 
+            Tracer.TaskManagerTrace.TraceEvent(TraceEventType.Start, 0, "Начало GetArchivedTasks");
+            Stopwatch sw = Stopwatch.StartNew();
             if (string.IsNullOrEmpty(connectionString))
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                   TraceEventType.Warning,
+                   2,
+                   "Попытка добавить подключение с пустым названием.");
                 _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
@@ -348,7 +445,10 @@ namespace Task_Management.Controllers
                         }
                     }
                 }
-
+                Tracer.TaskManagerTrace.TraceEvent(
+                  TraceEventType.Stop,
+                  2,
+                  $"Завершение GetArchivedTasks. Время: {sw.ElapsedMilliseconds} мс");
                 _logger.LogInformation("[{Time}] Успешно получено {Count} архивированных задач.",
                     requestTime, archivedTasks.Count);
 
@@ -356,6 +456,11 @@ namespace Task_Management.Controllers
             }
             catch (Exception ex)
             {
+                Tracer.TaskManagerTrace.TraceEvent(
+                          TraceEventType.Error,
+                          3,
+                          $"Ошибка в GetArchivedTasks: {ex.Message}"
+                      );
                 _logger.LogError(ex, "[{Time}] Ошибка при получении архивированных задач.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, $"Ошибка сервера: {ex.Message}");
             }

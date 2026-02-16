@@ -4,20 +4,28 @@ using Serilog;
 using Serilog.Events;
 using Serilog.Formatting.Json;
 using System.Data;
+using System.Diagnostics;
+using System.Runtime.ConstrainedExecution;
 using Task_Management.Data;
+System.Diagnostics.Trace.AutoFlush = true;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+Tracer.TaskManagerTrace.Switch.Level = SourceLevels.All;
+Tracer.TaskManagerTrace.Listeners.Add(new TextWriterTraceListener("logs/taskmanagementTrace.log"));
+
+Tracer.TaskManagerTrace.Flush();
+
 Log.Logger = new LoggerConfiguration()
-            .MinimumLevel.Debug()                   
-            .WriteTo.Console()                      
+            .MinimumLevel.Debug()
+            .WriteTo.Console()
             .WriteTo.File(
-                formatter: new JsonFormatter(),      
-                path: "logs/taskmanagement.log",
+                formatter: new JsonFormatter(),
+                path: "logs/taskmanagementLogs.log",
                 rollingInterval: RollingInterval.Day)
             .CreateLogger();
 builder.Host.UseSerilog();
-
 
 builder.Services.AddControllersWithViews();
 
@@ -44,3 +52,7 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+public static class Tracer
+{
+    public static TraceSource TaskManagerTrace = new TraceSource("TaskManagerTrace", SourceLevels.Verbose);
+}

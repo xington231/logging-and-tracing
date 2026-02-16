@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ONHCUPCJuG4=",
+  "dgSpecHash": "pIctHInUq9o=",
   "success": true,
   "projectFilePath": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Task Management.csproj",
   "expectedPackageFiles": [
@@ -38,7 +38,21 @@
     "C:\\Users\\degty\\.nuget\\packages\\system.composition.convention\\9.0.0\\system.composition.convention.9.0.0.nupkg.sha512",
     "C:\\Users\\degty\\.nuget\\packages\\system.composition.hosting\\9.0.0\\system.composition.hosting.9.0.0.nupkg.sha512",
     "C:\\Users\\degty\\.nuget\\packages\\system.composition.runtime\\9.0.0\\system.composition.runtime.9.0.0.nupkg.sha512",
-    "C:\\Users\\degty\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512"
+    "C:\\Users\\degty\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512",
+    "C:\\Users\\degty\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.3\\system.diagnostics.diagnosticsource.10.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Diagnostics.DiagnosticSource не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
+      "projectPath": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Task Management.csproj",
+      "warningLevel": 1,
+      "filePath": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Task Management.csproj",
+      "libraryId": "System.Diagnostics.DiagnosticSource",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
