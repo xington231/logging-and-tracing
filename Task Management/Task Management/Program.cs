@@ -1,17 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
-using System.Data;
-using Task_Management.Data;
 using Serilog;
 using Serilog.Events;
+using Serilog.Formatting.Json;
+using System.Data;
+using Task_Management.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 Log.Logger = new LoggerConfiguration()
             .MinimumLevel.Debug()                   
             .WriteTo.Console()                      
-            .WriteTo.File("logs/taskmanagement.log",         
-                rollingInterval: RollingInterval.Day) 
+            .WriteTo.File(
+                formatter: new JsonFormatter(),      
+                path: "logs/taskmanagement.log",
+                rollingInterval: RollingInterval.Day)
             .CreateLogger();
 builder.Host.UseSerilog();
 

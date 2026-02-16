@@ -66,8 +66,7 @@ namespace Task_Management.Controllers
                             }
 
                             transaction.Commit();
-                            _logger.LogInformation("[{Time}] Задача успешно создана с TaskID={TaskID}.",
-                                requestTime, newTaskId);
+                            _logger.LogInformation("[{Time}] Задача успешно создана с TaskID={TaskID}.",requestTime, newTaskId);
                             return Ok(new
                             {
                                 task_id = newTaskId,
@@ -93,7 +92,7 @@ namespace Task_Management.Controllers
 
             if (string.IsNullOrEmpty(connectionString))
             {
-                _logger.LogError($"[{DateTime.UtcNow}] Ошибка: строка подключения 'task_management' не найдена или пуста.");
+                _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
 
@@ -162,7 +161,7 @@ namespace Task_Management.Controllers
 
             if (string.IsNullOrEmpty(connectionString))
             {
-                _logger.LogError($"[{DateTime.UtcNow}] Ошибка: строка подключения 'task_management' не найдена или пуста.");
+                _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
 
@@ -195,22 +194,19 @@ namespace Task_Management.Controllers
                             if (result < 1)
                             {
                                 transaction.Rollback();
-                                _logger.LogWarning("[{Time}] Ошибка: задача с ID={TaskID} не была обновлена (не найдена).",
-                                    requestTime, request.task_id);
+                                _logger.LogWarning("[{Time}] Ошибка: задача с ID={TaskID} не была обновлена (не найдена).",requestTime, request.task_id);
                                 return NotFound($"Задача с ID {request.task_id} не найдена.");
                             }
                         }
 
                         transaction.Commit();
-                        _logger.LogInformation("[{Time}] Задача с TaskID={TaskID} успешно обновлена.",
-                            requestTime, request.task_id);
+                        _logger.LogInformation("[{Time}] Задача с TaskID={TaskID} успешно обновлена.",requestTime, request.task_id);
                         return Ok($"Задача с ID {request.task_id} успешно обновлена.");
                     }
                     catch (Exception ex)
                     {
                         transaction.Rollback();
-                        _logger.LogError(ex, "[{Time}] Ошибка: не удалось обновить задачу с ID={TaskID}.",
-                            requestTime, request.task_id);
+                        _logger.LogError(ex, "[{Time}] Ошибка: не удалось обновить задачу с ID={TaskID}.",requestTime, request.task_id);
                         return StatusCode(StatusCodes.Status500InternalServerError, $"Ошибка сервера: {ex.Message}");
                     }
                 }
@@ -224,7 +220,7 @@ namespace Task_Management.Controllers
 
             if (string.IsNullOrEmpty(connectionString))
             {
-                _logger.LogError($"[{DateTime.UtcNow}] Ошибка: строка подключения 'task_management' не найдена или пуста.");
+                _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
 
@@ -274,7 +270,7 @@ namespace Task_Management.Controllers
 
             if (string.IsNullOrEmpty(connectionString))
             {
-                _logger.LogError($"[{DateTime.UtcNow}] Ошибка: строка подключения 'task_management' не найдена или пуста.");
+                _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
             try
@@ -315,7 +311,7 @@ namespace Task_Management.Controllers
 
             if (string.IsNullOrEmpty(connectionString))
             {
-                _logger.LogError($"[{DateTime.UtcNow}] Ошибка: строка подключения 'task_management' не найдена или пуста.");
+                _logger.LogError("[{Time}] Ошибка: строка подключения 'task_management' не найдена или пуста.", requestTime);
                 return StatusCode(StatusCodes.Status500InternalServerError, "Ошибка конфигурации: строка подключения не найдена.");
             }
 
