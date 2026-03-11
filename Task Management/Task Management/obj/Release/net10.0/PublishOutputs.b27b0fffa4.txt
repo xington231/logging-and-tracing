@@ -1,0 +1,22 @@
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Task Management.exe
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\appsettings.Development.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\appsettings.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Task Management.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Task Management.runtimeconfig.json
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Task Management.pdb
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Microsoft.EntityFrameworkCore.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Microsoft.Extensions.DependencyModel.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Npgsql.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.AspNetCore.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Extensions.Hosting.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Extensions.Logging.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Formatting.Compact.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Settings.Configuration.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Sinks.Console.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Sinks.Debug.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Serilog.Sinks.File.dll
+E:\Study\LoggingAndTracing\Task Management\Task Management\publish\Task Management.deps.json
